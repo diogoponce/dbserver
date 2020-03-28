@@ -1,0 +1,8 @@
+C:\projetos\dbserver\DBServer\DBServer.Infra\bin\Debug\netcoreapp2.2\DBServer.Infra.deps.json
+C:\projetos\dbserver\DBServer\DBServer.Infra\bin\Debug\netcoreapp2.2\DBServer.Infra.dll
+C:\projetos\dbserver\DBServer\DBServer.Infra\bin\Debug\netcoreapp2.2\DBServer.Infra.pdb
+C:\projetos\dbserver\DBServer\DBServer.Infra\obj\Debug\netcoreapp2.2\DBServer.Infra.AssemblyInfoInputs.cache
+C:\projetos\dbserver\DBServer\DBServer.Infra\obj\Debug\netcoreapp2.2\DBServer.Infra.AssemblyInfo.cs
+C:\projetos\dbserver\DBServer\DBServer.Infra\obj\Debug\netcoreapp2.2\DBServer.Infra.dll
+C:\projetos\dbserver\DBServer\DBServer.Infra\obj\Debug\netcoreapp2.2\DBServer.Infra.pdb
+C:\projetos\dbserver\DBServer\DBServer.Infra\obj\Debug\netcoreapp2.2\DBServer.Infra.csprojAssemblyReference.cache

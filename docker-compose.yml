@@ -1,0 +1,106 @@
+version: '3.4'
+
+x-proxy:
+    &dbserver_proxy
+        - "${ROOT_PATH}/apache2/conf-enabled/dbserver.proxy.conf:/etc/apache2/conf-enabled/dbserver.proxy.conf"
+
+x-mssql: 
+    &mssql_path
+        - "${ROOT_PATH}/mssql:/var/opt/mssql/data"
+
+x-appsettings:
+  &appsettings
+    - "${ROOT_PATH}/appsettings/default.docker.json:/default_settings.json"
+
+services:
+
+    apache2:
+        container_name: apache2
+        image: debian:latest
+        ports:
+            - "80:80"
+            - "443:443"
+        volumes: *dbserver_proxy
+        build:
+            context: .
+            dockerfile: DBServer.Infra/DockerFiles/apache/Dockerfile
+        networks:
+            default:
+                ipv4_address: 172.50.1.1
+
+    mssql:
+        container_name: mssql
+        image: mcr.microsoft.com/mssql/server    
+        ports:
+            - "1433:1433"
+        volumes: *mssql_path
+        environment:
+            "ACCEPT_EULA": "Y"
+            "SA_PASSWORD": "@desenv2020++"
+            "MSSQL_PID": "Developer"
+        networks:
+            default:
+                ipv4_address: 172.50.0.2
+
+    DBServer.Auth:
+        container_name: dbserver.auth
+        image: dbserver-auth    
+        ports:
+            - "127.0.0.1:5080:80"
+            - "127.0.0.1:5443:443"
+        depends_on:
+            - apache2
+            - mssql
+        links:
+            - mssql      
+        volumes: *appsettings
+        build:
+            context: .
+            dockerfile: DBServer.Auth/Dockerfile
+        networks:
+            default:
+                ipv4_address: 172.50.0.3
+
+    DBServer.Balance:
+        container_name: dbserver.balance        
+        image: dbserver-balance    
+        ports:
+            - "127.0.0.1:6080:80"
+            - "127.0.0.1:6443:443"
+        depends_on:
+            - apache2
+            - mssql
+        links:
+            - mssql      
+        volumes: *appsettings
+        build:
+            context: .
+            dockerfile: DBServer.Balance/Dockerfile
+        networks:
+            default:
+                ipv4_address: 172.50.0.4
+
+    DBServer.Transactions:
+        container_name: dbserver.transactions        
+        image: dbserver-transactions    
+        ports:
+            - "127.0.0.1:7080:80"
+            - "127.0.0.1:7443:443"
+        depends_on:
+            - apache2
+            - mssql
+        links:
+            - mssql      
+        volumes: *appsettings
+        build:
+            context: .
+            dockerfile: DBServer.Transactions/Dockerfile
+        networks:
+            default:
+                ipv4_address: 172.50.0.5
+
+networks:
+    default:
+        ipam:
+            config:
+                - subnet: 172.50.0.0/16

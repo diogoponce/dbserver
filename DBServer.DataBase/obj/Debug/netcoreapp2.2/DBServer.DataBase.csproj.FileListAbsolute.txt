@@ -1,0 +1,13 @@
+C:\projetos\dbserver\DBServer\DBServer.DataBase\bin\Debug\netcoreapp2.2\DBServer.DataBase.deps.json
+C:\projetos\dbserver\DBServer\DBServer.DataBase\bin\Debug\netcoreapp2.2\DBServer.DataBase.dll
+C:\projetos\dbserver\DBServer\DBServer.DataBase\bin\Debug\netcoreapp2.2\DBServer.DataBase.pdb
+C:\projetos\dbserver\DBServer\DBServer.DataBase\bin\Debug\netcoreapp2.2\DBServer.Domain.dll
+C:\projetos\dbserver\DBServer\DBServer.DataBase\bin\Debug\netcoreapp2.2\DBServer.Infra.dll
+C:\projetos\dbserver\DBServer\DBServer.DataBase\bin\Debug\netcoreapp2.2\DBServer.Domain.pdb
+C:\projetos\dbserver\DBServer\DBServer.DataBase\bin\Debug\netcoreapp2.2\DBServer.Infra.pdb
+C:\projetos\dbserver\DBServer\DBServer.DataBase\obj\Debug\netcoreapp2.2\DBServer.DataBase.csprojAssemblyReference.cache
+C:\projetos\dbserver\DBServer\DBServer.DataBase\obj\Debug\netcoreapp2.2\DBServer.DataBase.AssemblyInfoInputs.cache
+C:\projetos\dbserver\DBServer\DBServer.DataBase\obj\Debug\netcoreapp2.2\DBServer.DataBase.AssemblyInfo.cs
+C:\projetos\dbserver\DBServer\DBServer.DataBase\obj\Debug\netcoreapp2.2\DBServer.DataBase.csproj.CopyComplete
+C:\projetos\dbserver\DBServer\DBServer.DataBase\obj\Debug\netcoreapp2.2\DBServer.DataBase.dll
+C:\projetos\dbserver\DBServer\DBServer.DataBase\obj\Debug\netcoreapp2.2\DBServer.DataBase.pdb

@@ -1,0 +1,5 @@
+C:\projetos\dbserver\DBServer\DBServer.Transactions\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\projetos\dbserver\DBServer\DBServer.Transactions\bin\Debug\netcoreapp2.1\appsettings.json
+C:\projetos\dbserver\DBServer\DBServer.Transactions\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\projetos\dbserver\DBServer\DBServer.Transactions\obj\Debug\netcoreapp2.1\DBServer.Transactions.AssemblyInfoInputs.cache
+C:\projetos\dbserver\DBServer\DBServer.Transactions\obj\Debug\netcoreapp2.1\DBServer.Transactions.AssemblyInfo.cs

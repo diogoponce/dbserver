@@ -1,0 +1,5 @@
+C:\projetos\dbserver\DBServer\DBServer.Auth\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\projetos\dbserver\DBServer\DBServer.Auth\bin\Debug\netcoreapp2.1\appsettings.json
+C:\projetos\dbserver\DBServer\DBServer.Auth\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\projetos\dbserver\DBServer\DBServer.Auth\obj\Debug\netcoreapp2.1\DBServer.Auth.AssemblyInfoInputs.cache
+C:\projetos\dbserver\DBServer\DBServer.Auth\obj\Debug\netcoreapp2.1\DBServer.Auth.AssemblyInfo.cs

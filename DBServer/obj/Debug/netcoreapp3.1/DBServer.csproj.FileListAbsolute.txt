@@ -1,0 +1,9 @@
+C:\projetos\dbserver\DBServer\DBServer\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\projetos\dbserver\DBServer\DBServer\bin\Debug\netcoreapp3.1\appsettings.json
+C:\projetos\dbserver\DBServer\DBServer\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\projetos\dbserver\DBServer\DBServer\obj\Debug\netcoreapp3.1\DBServer.csprojAssemblyReference.cache
+C:\projetos\dbserver\DBServer\DBServer\obj\Debug\netcoreapp3.1\staticwebassets\DBServer.StaticWebAssets.Manifest.cache
+C:\projetos\dbserver\DBServer\DBServer\obj\Debug\netcoreapp3.1\staticwebassets\DBServer.StaticWebAssets.xml
+C:\projetos\dbserver\DBServer\DBServer\obj\Debug\netcoreapp3.1\DBServer.AssemblyInfoInputs.cache
+C:\projetos\dbserver\DBServer\DBServer\obj\Debug\netcoreapp3.1\DBServer.AssemblyInfo.cs
+C:\projetos\dbserver\DBServer\DBServer\obj\Debug\netcoreapp3.1\DBServer.RazorTargetAssemblyInfo.cache
