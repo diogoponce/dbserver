@@ -85,7 +85,7 @@ curl -d '{"Numero": 895623,"Digito": 1,"Valor": 5.00 }' -H "Content-Type: applic
 ```
 ## Saldo
 Esse exemplo retorna apenas o saldo da conta.<br />
-O saldo exibido será da conta representada pelo **TOKEN** retornado na autenticação.<br />
+O saldo exibido será o da conta representada pelo **TOKEN** retornado na autenticação.<br />
 
 ```
 curl -H "Content-Type: application/json" -H 'Authorization: Bearer ${TOKEN}' -sS http://localhost/api/balance
