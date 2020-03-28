@@ -76,7 +76,7 @@ curl -d '{"Numero":"784512", "Digito":"1", "Senha": "215487"}' -H "Content-Type:
 ## Transferência entre contas
 
 Esse exemplo executa uma ordem de transferência de R$5.00 para a conta 895623-1.<br />
-O débito ocorrerá na conta representada pelo **TOKEN** retornado na autenticação.<br />
+O débito ocorrerá na conta autenticada com o **TOKEN** retornado na autenticação.<br />
 Retorna **Status 200** e **true**  em caso de sucesso.<br />
 
 #### Exemplo 
@@ -85,7 +85,7 @@ curl -d '{"Numero": 895623,"Digito": 1,"Valor": 5.00 }' -H "Content-Type: applic
 ```
 ## Saldo
 Esse exemplo retorna apenas o saldo da conta.<br />
-O saldo exibido será o da conta representada pelo **TOKEN** retornado na autenticação.<br />
+O saldo exibido será o da conta autenticada com o **TOKEN** retornado na autenticação.<br />
 
 ```
 curl -H "Content-Type: application/json" -H 'Authorization: Bearer ${TOKEN}' -sS http://localhost/api/balance
