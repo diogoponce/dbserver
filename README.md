@@ -28,19 +28,19 @@ para que o docker-compose funcione corretamente.
 
 ## Levantando o aplicativo
 
-Na raiz da aplicação abra o terminal e execute o comando, é necessário ter o docker instalado.
+Na raiz da aplicação abra o terminal e execute o comando, é necessário ter o docker instalado.<br />
 Aguarde o processo terminar.
 
 >docker-compose up --build
 
 ## Criando o banco de dados
 
-No projeto DBServer.Infra abra a pasta **Setup** e execute o arquivo **Setup.sql**.
-Esse script irá criar toda a estrutura e os dados para testes.
+No projeto DBServer.Infra abra a pasta **Setup** e execute o arquivo **Setup.sql**.<br />
+Esse script irá criar toda a estrutura e os dados para testes.<br />
 
 # Contas corrente
-Após a instalação serão criadas 2 contas correntes com R$100.00 de saldo.
-Caso precise adicionar saldo terá que fazer manualmente.
+Após a instalação serão criadas 2 contas correntes com R$100.00 de saldo.<br />
+Caso precise adicionar saldo terá que fazer manualmente.<br />
 
 ## Contas para teste
 
