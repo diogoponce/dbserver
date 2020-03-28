@@ -72,7 +72,7 @@ Esse exemplo autentica e retorna o token para que as outras operações possam s
 ```
 curl -d '{"Numero":"784512", "Digito":"1", "Senha": "215487"}' -H "Content-Type: application/json" -X POST -sS http://localhost/api/auth
 ```
-### Retorno
+#### Retorno
 ```
 {
    "create":"0001-01-01T19:24:21.0458563Z",
