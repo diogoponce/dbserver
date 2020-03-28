@@ -75,25 +75,25 @@ curl -d '{"Numero":"784512", "Digito":"1", "Senha": "215487"}' -H "Content-Type:
 
 ## Transferência entre contas
 
-Esse serviço executa uma ordem de transferência de R$5.00 para a conta 895623-1.
-O débito ocorrerá na conta representada pelo **TOKEN** retornado na autenticação.
-Retorna **Status 200** e **true**  em caso de sucesso.
+Esse exemplo executa uma ordem de transferência de R$5.00 para a conta 895623-1.<br />
+O débito ocorrerá na conta representada pelo **TOKEN** retornado na autenticação.<br />
+Retorna **Status 200** e **true**  em caso de sucesso.<br />
 
 #### Exemplo 
 ```
 curl -d '{"Numero": 895623,"Digito": 1,"Valor": 5.00 }' -H "Content-Type: application/json" -H 'Authorization: Bearer ${TOKEN}' -sS http://localhost/api/transaction
 ```
 ## Saldo
-Esse serviço retorna apenas o saldo da conta.
-O saldo exibido será da conta representada pelo **TOKEN** retornado na autenticação.
+Esse serviço retorna apenas o saldo da conta.<br />
+O saldo exibido será da conta representada pelo **TOKEN** retornado na autenticação.<br />
 
 ```
 curl -H "Content-Type: application/json" -H 'Authorization: Bearer ${TOKEN}' -sS http://localhost/api/balance
 ```
 
-# Tecnologias
-0 - Docker
-1 - .Net Core 2.2, conforme requisito
-2 - Apache 2 para proxy reverso
-3 - Sql Server 
+# Tecnologias<br />
+0 - Docker<br />
+1 - .Net Core 2.2, conforme requisito<br />
+2 - Apache 2 para proxy reverso<br />
+3 - Sql Server <br />
 
