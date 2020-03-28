@@ -72,7 +72,13 @@ Esse exemplo autentica e retorna o token para que as outras operações possam s
 ```
 curl -d '{"Numero":"784512", "Digito":"1", "Senha": "215487"}' -H "Content-Type: application/json" -X POST -sS http://localhost/api/auth
 ```
-
+### Retorno
+```
+{
+   "create":"2020-03-28T19:24:21.0458563Z",
+   "expires":"2020-03-28T20:24:21.0458565Z",      "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9hdXRoZW50aWNhdGlvbiI6Ii9WckxKRHpMN1RvMzEyRUNzTHc4elQrSHZsazhLS3J6MXVLSDBZc09qdVdXU0c4bitDM2lIQXo2RkhDQkZaUGhwM1JNOFBPZjBaNnRCcHhWQ0FJWHRUYTRuc1ZMZkN5dnd2NFBhOEpIdzU0PSIsIm5iZiI6MTU4NTQyMzQ2MSwiZXhwIjoxNTg1NDI3MDYxLCJpYXQiOjE1ODU0MjM0NjEsImlzcyI6IkRCU2VydmVyIn0.WGMOXcCj2_ClUzfmS4e-OoOXiFEmEib9-SR9gbYg82E"
+}
+```
 ## Transferência entre contas
 
 Esse exemplo executa uma ordem de transferência de R$5.00 para a conta 895623-1.<br />
