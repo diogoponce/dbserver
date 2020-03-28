@@ -16,7 +16,7 @@ A instalação é um processo simples e requer apenas **Docker** instalado no ho
 1 - No projeto DBServer.Infra abra a pasta **Setup** e descompacte o arquivo **dbserver.zip**.<br />
 2 - Mova a pasta **dbserver** extraída para **C:\data**<br />
 
-> A estrura de diretórios deve ficar assim.
+> A estrura de diretórios deve ficar assim.<br />
 >  **C:\data\dbserver\apache2**<br />
 >  **C:\data\dbserver\appsettings**<br />
 > **C:\data\dbserver\mssql** <br />
