@@ -3,7 +3,7 @@
 ## Regra de negócio
 
 
->Criar um microservices que, através de um http post efetue uma operação de debito (origem) e credito (destino) nas contas correntes.
+>Criar um microservices que, através de um http post efetue uma operação de debito (origem) e credito (destino) nas contas correntes.<br />
 >**Entidades:** ContaCorrente, Lancamentos (voce pode incrementar com  outras entidades se achar necessário)
 
 # Instalação
@@ -13,13 +13,13 @@ A instalação é um processo simples e requer apenas **Docker** instalado no ho
 0 - Crie uma pasta chamada **data** em **C:**
  > O caminho deve ficar C:\data 
  
-1 - No projeto DBServer.Infra abra a pasta **Setup** e descompacte o arquivo **dbserver.zip**.
-2 - Mova a pasta **dbserver** extraída para **C:\data**
+1 - No projeto DBServer.Infra abra a pasta **Setup** e descompacte o arquivo **dbserver.zip**.<br />
+2 - Mova a pasta **dbserver** extraída para **C:\data**<br />
 
 > A estrura de diretórios deve ficar assim.
->  **C:\data\dbserver\apache2**
->  **C:\data\dbserver\appsettings**
-> **C:\data\dbserver\mssql** 
+>  **C:\data\dbserver\apache2**<br />
+>  **C:\data\dbserver\appsettings**<br />
+> **C:\data\dbserver\mssql** <br />
 
 3 - Se necessário configure as permissões do diretório
 
