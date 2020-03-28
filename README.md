@@ -66,7 +66,7 @@ Foram criados 3 Microserviços <br />
 
 ## Autenticação
 
-Esse serviços autentica e retorna o token para que as outras operações possam ser realizadas.
+Esse exemplo autentica e retorna o token para que as outras operações possam ser realizadas.
 
 #### Exemplo 
 ```
@@ -84,7 +84,7 @@ Retorna **Status 200** e **true**  em caso de sucesso.<br />
 curl -d '{"Numero": 895623,"Digito": 1,"Valor": 5.00 }' -H "Content-Type: application/json" -H 'Authorization: Bearer ${TOKEN}' -sS http://localhost/api/transaction
 ```
 ## Saldo
-Esse serviço retorna apenas o saldo da conta.<br />
+Esse exemplo retorna apenas o saldo da conta.<br />
 O saldo exibido será da conta representada pelo **TOKEN** retornado na autenticação.<br />
 
 ```
