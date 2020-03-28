@@ -59,10 +59,10 @@ Duas contas foram criadas.<br />
 
 # Microsserviços
 
-Foram criados 3 Microserviços 
-0 - Autenticação
-1 - Transferência entre contas
-2 - Saldo
+Foram criados 3 Microserviços <br />
+0 - Autenticação<br />
+1 - Transferência entre contas<br />
+2 - Saldo<br />
 
 ## Autenticação
 
